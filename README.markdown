@@ -1,0 +1,3 @@
+# Ruby on Rails Tutorial: sample application
+
+This is another sample application.  Sick of them yet?  Probably...  
