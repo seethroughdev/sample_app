@@ -1,0 +1,13 @@
+!!!
+%html
+	%head
+		%meta{:charset => "UTF-8"}/
+		%title= title
+		= csrf_meta_tag
+		= stylesheet_link_tag 'blueprint/screen'
+		= stylesheet_link_tag 'blueprint/print', :media => 'print'
+		/[if lt IE 8]
+			= stylesheet_link_tag 'blueprint/ie', :media => 'screen, projection'
+	%body
+		= yield  
+		%h2 you love it
